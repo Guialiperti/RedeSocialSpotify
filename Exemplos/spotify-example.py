@@ -21,6 +21,7 @@ OUTPUT_PATH = r'spotify'
 
 def get_name(api, ego_username):
     artist = api.artist(ego_username)
+    print(artist['name'])
     return artist['name']
 
 
@@ -28,6 +29,16 @@ def get_usernames(api, ego_username):
     related = api.artist_related_artists(ego_username)
     artists = related['artists']
     return [artist['id'] for artist in artists]
+
+def get_genres_artist(api, ego_username):
+    artist = api.artist(ego_username)
+    genres = artist['genres']
+    return genres
+
+def get_popularity_artist(api, ego_username):
+    artist = api.artist(ego_username)
+    popularity = artist['popularity']
+    return popularity
 
 
 def main():
@@ -60,8 +71,6 @@ def main():
         name = get_name(api, EGO_USERNAME)
 
         usernames = get_usernames(api, EGO_USERNAME)
-
-        print(usernames)
 
         saver.save(EGO_USERNAME, name, usernames)
 
