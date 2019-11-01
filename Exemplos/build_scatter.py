@@ -27,23 +27,25 @@ lista_caches.pop(0)
 
 counter = 0
 node = nx.DiGraph()
+print(lista_nomes)
 for artista in lista_nomes:
     try:
         g = fm.load('{0}.gml'.format(artista))
-        indegree = node.in_degree(lista_ids[counter])
+        indegree = g.in_degree(lista_ids[counter])
         lista_indegree.append(indegree)
     except:
-        lista_caches.pop()
         print("{0} FAIL".format(artista))
 
     counter += 1
+
+print(lista_indegree)
 
 
 colors = (0,0,0)
 area = np.pi*3
 
 # Plot
-plt.scatter(lista_caches, lista_indegree, s=area, c=colors, alpha=0.5)
+plt.scatter(lista_caches, lista_indegree, s=area, alpha=0.5)
 plt.title('Scatter Indegree x Cache')
 plt.xlabel('Caches')
 plt.ylabel('Indegree')
