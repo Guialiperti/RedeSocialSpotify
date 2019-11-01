@@ -61,14 +61,17 @@ def main():
 
         usernames = get_usernames(api, EGO_USERNAME)
 
+        print(usernames)
+
         saver.save(EGO_USERNAME, name, usernames)
 
         for username in usernames:
             name = get_name(api, username)
 
             alter_usernames = get_usernames(api, username)
+            #print(alter_usernames)
 
-            saver.save(username, name, alter_usernames)
+           # saver.save(username, name, alter_usernames)
         
         tam += 1
 
