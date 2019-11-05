@@ -4,6 +4,7 @@ import csv
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 lista_ids = []
 lista_nomes = []
 lista_caches = []
