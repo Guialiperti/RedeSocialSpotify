@@ -30,11 +30,11 @@ for lista_genero in lista_geral_id:
     area = np.pi*3
 
     # Plot Scatter Indegree x Cache
-    plt.scatter(lista_geral_caches[counter_geral], lista_indegree, s=area, alpha=0.5)
-    plt.title('Scatter Indegree x Cache')
-    plt.xlabel('Indegree')
-    plt.ylabel('Cache')
-    plt.show()
+#    plt.scatter(lista_geral_caches[counter_geral], lista_indegree, s=area, alpha=0.5)
+ #   plt.title('Scatter Indegree x Cache')
+  #  plt.xlabel('Indegree')
+   # plt.ylabel('Cache')
+    #plt.show()
 
     counter_geral += 1
 
