@@ -70,7 +70,7 @@ def main():
         
         EGO_USERNAME = lista_ids[tam]
         
-        OUTPUT_PATH = lista_nomes[tam]
+        OUTPUT_PATH = get_name(api, EGO_USERNAME)
 
         saver = Saver(OUTPUT_PATH)
 
@@ -81,7 +81,6 @@ def main():
         saver.save(EGO_USERNAME, name, usernames)
         
         for username in usernames:
-            genero_igual = False
             name = get_name(api, username)
 
             alter_usernames = get_usernames(api, username)

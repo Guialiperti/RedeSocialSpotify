@@ -7,7 +7,6 @@ from save import Saver
 import csv
 import numpy as np
 import matplotlib.pyplot as plt
-import spotify-example
 
 
 # Go to the Dashboard at developer.spotify.com and

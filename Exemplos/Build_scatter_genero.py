@@ -4,9 +4,9 @@ import csv
 import numpy as np
 import matplotlib.pyplot as plt
 from funcoes import *
+from gera_genero import *
 
-
-
+lista_geral_id, lista_geral_caches = gera_genero()
 #Loop Scatter Indegree x Cache
 counter_geral = 0
 for lista_genero in lista_geral_id:
