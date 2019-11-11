@@ -8,35 +8,39 @@ from gera_genero import *
 
 lista_geral_id, lista_geral_caches = gera_genero()
 # Loop Scatter Indegree x Cache
-counter_geral = 0
-for lista_genero in lista_geral_id:
+# counter_geral = 0
+# for lista_genero in lista_geral_id:
+#     print(len(lista_genero))
+#     print(len(lista_geral_caches[counter_geral]))
+#     lista_indegree = []
+#     counter = 0
+#     node = nx.DiGraph()
+#     for id_artista in lista_genero:
+#         artista = get_name(api, id_artista)
+#         try:
+#             g = fm.load('{0}.gml'.format(artista))
+#             indegree = g.in_degree(id_artista[counter])
+#             lista_indegree.append(indegree)
+#         except:
+#             print("{0} FAIL".format(artista))
 
-    lista_indegree = []
-    counter = 0
-    node = nx.DiGraph()
-    for id_artista in lista_genero:
-        artista = get_name(api, id_artista)
-        try:
-            g = fm.load('{0}.gml'.format(artista))
-            indegree = g.in_degree(id_artista[counter])
-            lista_indegree.append(indegree)
-        except:
-            print("{0} FAIL".format(artista))
+#         counter += 1
+#     #PLOTS
 
-        counter += 1
-    #PLOTS
+#     colors = (0,0,0)
+#     area = np.pi*3
 
-    colors = (0,0,0)
-    area = np.pi*3
+#     # Plot Scatter Indegree x Cache
+#     lista_caches = lista_geral_caches[counter_geral]
+#     print(lista_caches)
+#     print(lista_indegree)
+#     plt.scatter(lista_caches, lista_indegree, s=area, alpha=0.5)
+#     plt.title('Scatter Indegree x Cache')
+#     plt.xlabel('Indegree')
+#     plt.ylabel('Cache')
+#     plt.show()
 
-    # Plot Scatter Indegree x Cache
-    plt.scatter(lista_geral_caches[counter_geral], lista_indegree, s=area, alpha=0.5)
-    plt.title('Scatter Indegree x Cache')
-    plt.xlabel('Indegree')
-    plt.ylabel('Cache')
-    plt.show()
-
-    counter_geral += 1
+#     counter_geral += 1
 
 
 
