@@ -19,7 +19,8 @@ class Saver:
     def save(self, username, name, alter_usernames):
         path = os.path.join(self.path, username + '.txt')
 
-        with open(path, 'w', encoding='utf-8') as file:
+        mode = 'a' if os.path.exists(path) else 'w'
+        with open(path, mode, encoding='iso-8859-1') as file:
             file.write(name + '\n')
 
             for alter_username in alter_usernames:
@@ -27,4 +28,4 @@ class Saver:
 
         file.close()
 
-        print(username)
+       # print(username)

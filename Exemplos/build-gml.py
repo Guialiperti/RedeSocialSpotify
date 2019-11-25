@@ -18,6 +18,7 @@ def main():
         for row in readCSV:
             id_artista = row[3]
             nome = row[0]
+            print(nome)
             lista_ids.append(id_artista)
             lista_nomes.append(nome)
 
@@ -26,7 +27,7 @@ def main():
         NAME = nomes
         names, edges = build(nomes)
 
-        with open(NAME + '.gml', 'w', encoding='utf-8') as file:
+        with open("GMLs/" + NAME + '.gml', 'w', encoding='utf-8') as file:
             file.write('graph [\n')
             file.write('  directed {}\n'.format(int(DIRECTED)))
 

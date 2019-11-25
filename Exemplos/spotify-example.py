@@ -23,7 +23,7 @@ OUTPUT_PATH = r'spotify'
 
 def get_name(api, ego_username):
     artist = api.artist(ego_username)
-    print(artist['name'])
+    #print(artist['name'])
     return artist['name']
 
 
@@ -71,10 +71,12 @@ def main():
         EGO_USERNAME = lista_ids[tam]
         
         OUTPUT_PATH = get_name(api, EGO_USERNAME)
+        #OUTPUT_PATH = lista_nomes[tam]
 
         saver = Saver(OUTPUT_PATH)
 
         name = get_name(api, EGO_USERNAME)
+        print(name)
 
         usernames = get_usernames(api, EGO_USERNAME)
 
@@ -84,9 +86,7 @@ def main():
             name = get_name(api, username)
 
             alter_usernames = get_usernames(api, username)
-            print(alter_usernames)
-
-        saver.save(username, name, alter_usernames)
+            saver.save(username, name, alter_usernames)
         tam += 1
 
 

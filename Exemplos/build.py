@@ -4,11 +4,10 @@ import os
 def build(path):
     names = {}
     edges = set()
-
     for filename in os.listdir(path):
-        n = filename[:-4]
+        n = filename[:]
 
-        with open(os.path.join(path, filename), encoding='utf-8') as file:
+        with open(os.path.join(path, filename), encoding='iso-8859-1') as file:
             name = file.readline().strip()
             names[n] = name
 

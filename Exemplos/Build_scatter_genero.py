@@ -7,6 +7,7 @@ from funcoes import *
 from gera_genero import *
 
 lista_geral_id, lista_geral_caches = gera_genero()
+
 # Loop Scatter Indegree x Cache
 # counter_geral = 0
 # for lista_genero in lista_geral_id:
@@ -110,34 +111,46 @@ lista_geral_id, lista_geral_caches = gera_genero()
  #   plt.show()
 
  #   counter_geral += 1
-#Loop Scatter Popularidade x Cache
+
+
+
+
+
+
+#Globais
 counter_geral = 0
-for lista_genero in lista_geral_id:
+generos = ["Sertanejo", "Axé", "Pop Rock e MPB", "Eletrônico", "Funk","Samba e Pagode","Hip Hop e Reggae"]
 
-    lista_popularidade = []
-    counter = 0
-    for id_artista in lista_genero:
-        artista = get_name(api, id_artista)
-        try:
-            popularidade = get_popularity_artist(api, id_artista)
-            lista_popularidade.append(popularidade)
-        except:
-            print("{0} FAIL".format(artista))
-
-        counter += 1
-    #PLOTS
-
-    colors = (0,0,0)
-    area = np.pi*3
+#Loop Scatter Popularidade x Cache
+#for lista_genero in lista_geral_id:
+#
+#    lista_popularidade = []
+#    counter = 0
+#    for id_artista in lista_genero:
+#        artista = get_name(api, id_artista)
+#        try:
+#            popularidade = get_popularity_artist(api, id_artista)
+#            lista_popularidade.append(popularidade)
+#        except:
+#            print("{0} FAIL".format(artista))
+#
+#        counter += 1
+#    #PLOTS
+#
+#    colors = (0,0,0)
+#    area = np.pi*3
+#
+#    print(lista_geral_caches)
 
     # Plot Scatter Indegree x Cache
-    plt.scatter(lista_geral_caches[counter_geral], lista_popularidade, s=area, alpha=0.5)
-    plt.title('Scatter Popularidade x Cache')
-    plt.xlabel('Popularidade')
-    plt.ylabel('Cache')
-    plt.show()
+#    plt.scatter(lista_geral_caches[counter_geral], lista_popularidade, s=area, alpha=0.5)
+#    plt.title('Scatter Popularidade x Cache - '+ generos[counter_geral])
+#    plt.ylabel('Popularidade')
+#    plt.xlabel('Cache')
+#    plt.show()
 
-    counter_geral += 1
+#    counter_geral += 1
+
 
 #Loop Scatter Densidade x Cache 
 
@@ -155,8 +168,9 @@ for lista_genero in lista_geral_id:
     for id_artista in lista_genero:
         artista = get_name(api, id_artista)
         try:
-            g = fm.load('{0}.gml'.format(artista))
-            densidade = nx.density(g)
+            g = fm.load('GMLS/{0}.gml'.format(artista))
+            densidade = calcula_densidade(g)
+            print(densidade)
             lista_densidade.append(densidade)
         except:
 
@@ -170,9 +184,9 @@ for lista_genero in lista_geral_id:
     
     # Plot Scatter Densidade x Cache
     plt.scatter(lista_geral_caches[counter_geral], lista_densidade, s=area, alpha=0.5)
-    plt.title('Scatter Densidade x Cache')
-    plt.xlabel('Densidade')
-    plt.ylabel('Cache')
+    plt.title('Scatter Densidade x Cache'+ generos[counter_geral])
+    plt.ylabel('Popularidade')
+    plt.xlabel('Cache')
     plt.show()
 
     counter_geral += 1
@@ -203,9 +217,9 @@ for lista_genero in lista_geral_id:
 
     # Plot Scatter Densidade x Cache
     plt.scatter(lista_geral_caches[counter_geral], lista_clustering, s=area, alpha=0.5)
-    plt.title('Scatter Clustering Coefficient x Cache')
-    plt.xlabel('Clustering')
-    plt.ylabel('Cache')
+    plt.title('Scatter Clustering Coefficient x Cache'+ generos[counter_geral])
+    plt.ylabel('Popularidade')
+    plt.xlabel('Cache')
     plt.show()
 
     counter_geral += 1

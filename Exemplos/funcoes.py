@@ -10,7 +10,7 @@ api = Spotify(client_credentials_manager=client_credentials_manager)
 
 def get_name(api, ego_username):
     artist = api.artist(ego_username)
-    print(artist['name'])
+    #print(artist['name'])
     return artist['name']
 
 
