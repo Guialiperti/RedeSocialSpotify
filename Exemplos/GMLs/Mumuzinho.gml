@@ -1,87 +1,1139 @@
 graph [
   directed 1
   node [
-    id "07o97MiFEobUUwiIYcspmj.txt"
+    id "07o97MiFEobUUwiIYcspmj"
     name "Swing & Simpatia"
   ]
   node [
-    id "09djLPsTydbIFC9duW5mQp.txt"
+    id "09djLPsTydbIFC9duW5mQp"
     name "Vitinho"
   ]
   node [
-    id "0Jpjc7Fc84inIqLhOvBU1Q.txt"
+    id "0Jpjc7Fc84inIqLhOvBU1Q"
     name "Grupo Clareou"
   ]
   node [
-    id "1DEukDFi4pMT4Y0bfGxJTB.txt"
+    id "1DEukDFi4pMT4Y0bfGxJTB"
     name "Imaginasamba"
   ]
   node [
-    id "1GvdbTD73RbCxxDeM8LtUe.txt"
+    id "1GvdbTD73RbCxxDeM8LtUe"
     name "Nosso Sentimento"
   ]
   node [
-    id "1vppDmG3i5sXf3DJzrK4T1.txt"
+    id "1vppDmG3i5sXf3DJzrK4T1"
     name "Thiaguinho"
   ]
   node [
-    id "1xKdiuYoOCM2oCMErUjvtq.txt"
+    id "1xKdiuYoOCM2oCMErUjvtq"
     name "Rodriguinho"
   ]
   node [
-    id "25weUzxLCt8OwFTMSmif8X.txt"
+    id "25weUzxLCt8OwFTMSmif8X"
     name "Uendel Pinheiro"
   ]
   node [
-    id "2BcGYaQvEHrUMyRNSYpcsp.txt"
+    id "2BcGYaQvEHrUMyRNSYpcsp"
     name "Grupo Disfarce"
   ]
   node [
-    id "34dfPo3Zi55yM6oV46q4y7.txt"
+    id "34dfPo3Zi55yM6oV46q4y7"
     name "Mumuzinho"
   ]
   node [
-    id "3BjwDUAFEmVPIoii9RI4kh.txt"
+    id "3BjwDUAFEmVPIoii9RI4kh"
     name "Gustavo Lins"
   ]
   node [
-    id "3gdaj3L0OqxdaVoxnI7ZGu.txt"
+    id "3gdaj3L0OqxdaVoxnI7ZGu"
     name "KatinguelAa"
   ]
   node [
-    id "3RpJ23sQA3B70ZgSnT2Vxr.txt"
+    id "3RpJ23sQA3B70ZgSnT2Vxr"
     name "Os Travessos"
   ]
   node [
-    id "4NUePmzDvCYqilXBFa91Hg.txt"
+    id "4NUePmzDvCYqilXBFa91Hg"
     name "Dilsinho"
   ]
   node [
-    id "4S1JYtAckrOpZa0h30UGxX.txt"
+    id "4S1JYtAckrOpZa0h30UGxX"
     name "Tentasamba"
   ]
   node [
-    id "4SaxUo7mfdHBowU0llwxFd.txt"
+    id "4SaxUo7mfdHBowU0llwxFd"
     name "Bom Gosto"
   ]
   node [
-    id "5JG9GISYjRLQUJMH2C6iJ5.txt"
+    id "5JG9GISYjRLQUJMH2C6iJ5"
     name "Turma do Pagode"
   ]
   node [
-    id "5ZfBThYiIIhL7jHMG8gDB2.txt"
+    id "5ZfBThYiIIhL7jHMG8gDB2"
     name "Ferrugem"
   ]
   node [
-    id "6PtYnpdPPbMSAG8sxFs8uz.txt"
+    id "6PtYnpdPPbMSAG8sxFs8uz"
     name "Pique Novo"
   ]
   node [
-    id "6XgJ4LQHTOtveWKH5V7X56.txt"
+    id "6XgJ4LQHTOtveWKH5V7X56"
     name "Bokaloka"
   ]
   node [
-    id "7hLjkyL9Pz9xtQNahzJZki.txt"
+    id "7hLjkyL9Pz9xtQNahzJZki"
     name "Belo"
+  ]
+  edge [
+    source "3BjwDUAFEmVPIoii9RI4kh"
+    target "4S1JYtAckrOpZa0h30UGxX"
+  ]
+  edge [
+    source "25weUzxLCt8OwFTMSmif8X"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "1GvdbTD73RbCxxDeM8LtUe"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "4S1JYtAckrOpZa0h30UGxX"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "3BjwDUAFEmVPIoii9RI4kh"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "2BcGYaQvEHrUMyRNSYpcsp"
+    target "4S1JYtAckrOpZa0h30UGxX"
+  ]
+  edge [
+    source "07o97MiFEobUUwiIYcspmj"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "3RpJ23sQA3B70ZgSnT2Vxr"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "4NUePmzDvCYqilXBFa91Hg"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "1DEukDFi4pMT4Y0bfGxJTB"
+    target "2BcGYaQvEHrUMyRNSYpcsp"
+  ]
+  edge [
+    source "3RpJ23sQA3B70ZgSnT2Vxr"
+    target "5JG9GISYjRLQUJMH2C6iJ5"
+  ]
+  edge [
+    source "07o97MiFEobUUwiIYcspmj"
+    target "3BjwDUAFEmVPIoii9RI4kh"
+  ]
+  edge [
+    source "0Jpjc7Fc84inIqLhOvBU1Q"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "4NUePmzDvCYqilXBFa91Hg"
+    target "5JG9GISYjRLQUJMH2C6iJ5"
+  ]
+  edge [
+    source "09djLPsTydbIFC9duW5mQp"
+    target "1xKdiuYoOCM2oCMErUjvtq"
+  ]
+  edge [
+    source "7hLjkyL9Pz9xtQNahzJZki"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "3gdaj3L0OqxdaVoxnI7ZGu"
+    target "07o97MiFEobUUwiIYcspmj"
+  ]
+  edge [
+    source "6PtYnpdPPbMSAG8sxFs8uz"
+    target "1xKdiuYoOCM2oCMErUjvtq"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "6PtYnpdPPbMSAG8sxFs8uz"
+    target "3gdaj3L0OqxdaVoxnI7ZGu"
+  ]
+  edge [
+    source "1xKdiuYoOCM2oCMErUjvtq"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "4SaxUo7mfdHBowU0llwxFd"
+    target "34dfPo3Zi55yM6oV46q4y7"
+  ]
+  edge [
+    source "1vppDmG3i5sXf3DJzrK4T1"
+    target "09djLPsTydbIFC9duW5mQp"
+  ]
+  edge [
+    source "1DEukDFi4pMT4Y0bfGxJTB"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "3gdaj3L0OqxdaVoxnI7ZGu"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "4S1JYtAckrOpZa0h30UGxX"
+    target "3BjwDUAFEmVPIoii9RI4kh"
+  ]
+  edge [
+    source "3RpJ23sQA3B70ZgSnT2Vxr"
+    target "07o97MiFEobUUwiIYcspmj"
+  ]
+  edge [
+    source "3BjwDUAFEmVPIoii9RI4kh"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "3gdaj3L0OqxdaVoxnI7ZGu"
+  ]
+  edge [
+    source "7hLjkyL9Pz9xtQNahzJZki"
+    target "3BjwDUAFEmVPIoii9RI4kh"
+  ]
+  edge [
+    source "3RpJ23sQA3B70ZgSnT2Vxr"
+    target "4S1JYtAckrOpZa0h30UGxX"
+  ]
+  edge [
+    source "6PtYnpdPPbMSAG8sxFs8uz"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "4SaxUo7mfdHBowU0llwxFd"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "7hLjkyL9Pz9xtQNahzJZki"
+    target "3gdaj3L0OqxdaVoxnI7ZGu"
+  ]
+  edge [
+    source "3RpJ23sQA3B70ZgSnT2Vxr"
+    target "3BjwDUAFEmVPIoii9RI4kh"
+  ]
+  edge [
+    source "25weUzxLCt8OwFTMSmif8X"
+    target "07o97MiFEobUUwiIYcspmj"
+  ]
+  edge [
+    source "07o97MiFEobUUwiIYcspmj"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "4SaxUo7mfdHBowU0llwxFd"
+    target "0Jpjc7Fc84inIqLhOvBU1Q"
+  ]
+  edge [
+    source "3RpJ23sQA3B70ZgSnT2Vxr"
+    target "3gdaj3L0OqxdaVoxnI7ZGu"
+  ]
+  edge [
+    source "2BcGYaQvEHrUMyRNSYpcsp"
+    target "1xKdiuYoOCM2oCMErUjvtq"
+  ]
+  edge [
+    source "2BcGYaQvEHrUMyRNSYpcsp"
+    target "5JG9GISYjRLQUJMH2C6iJ5"
+  ]
+  edge [
+    source "1xKdiuYoOCM2oCMErUjvtq"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "2BcGYaQvEHrUMyRNSYpcsp"
+    target "3BjwDUAFEmVPIoii9RI4kh"
+  ]
+  edge [
+    source "7hLjkyL9Pz9xtQNahzJZki"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "25weUzxLCt8OwFTMSmif8X"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "1vppDmG3i5sXf3DJzrK4T1"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "4SaxUo7mfdHBowU0llwxFd"
+    target "1GvdbTD73RbCxxDeM8LtUe"
+  ]
+  edge [
+    source "0Jpjc7Fc84inIqLhOvBU1Q"
+    target "1GvdbTD73RbCxxDeM8LtUe"
+  ]
+  edge [
+    source "6PtYnpdPPbMSAG8sxFs8uz"
+    target "07o97MiFEobUUwiIYcspmj"
+  ]
+  edge [
+    source "1vppDmG3i5sXf3DJzrK4T1"
+    target "0Jpjc7Fc84inIqLhOvBU1Q"
+  ]
+  edge [
+    source "1DEukDFi4pMT4Y0bfGxJTB"
+    target "3BjwDUAFEmVPIoii9RI4kh"
+  ]
+  edge [
+    source "6XgJ4LQHTOtveWKH5V7X56"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "2BcGYaQvEHrUMyRNSYpcsp"
+    target "07o97MiFEobUUwiIYcspmj"
+  ]
+  edge [
+    source "6PtYnpdPPbMSAG8sxFs8uz"
+    target "4S1JYtAckrOpZa0h30UGxX"
+  ]
+  edge [
+    source "1vppDmG3i5sXf3DJzrK4T1"
+    target "5ZfBThYiIIhL7jHMG8gDB2"
+  ]
+  edge [
+    source "1xKdiuYoOCM2oCMErUjvtq"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "4NUePmzDvCYqilXBFa91Hg"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "1vppDmG3i5sXf3DJzrK4T1"
+    target "5JG9GISYjRLQUJMH2C6iJ5"
+  ]
+  edge [
+    source "25weUzxLCt8OwFTMSmif8X"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "4NUePmzDvCYqilXBFa91Hg"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "07o97MiFEobUUwiIYcspmj"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "1xKdiuYoOCM2oCMErUjvtq"
+    target "1GvdbTD73RbCxxDeM8LtUe"
+  ]
+  edge [
+    source "1DEukDFi4pMT4Y0bfGxJTB"
+    target "1vppDmG3i5sXf3DJzrK4T1"
+  ]
+  edge [
+    source "0Jpjc7Fc84inIqLhOvBU1Q"
+    target "09djLPsTydbIFC9duW5mQp"
+  ]
+  edge [
+    source "4SaxUo7mfdHBowU0llwxFd"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "2BcGYaQvEHrUMyRNSYpcsp"
+    target "1GvdbTD73RbCxxDeM8LtUe"
+  ]
+  edge [
+    source "1DEukDFi4pMT4Y0bfGxJTB"
+    target "34dfPo3Zi55yM6oV46q4y7"
+  ]
+  edge [
+    source "25weUzxLCt8OwFTMSmif8X"
+    target "34dfPo3Zi55yM6oV46q4y7"
+  ]
+  edge [
+    source "1GvdbTD73RbCxxDeM8LtUe"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "5ZfBThYiIIhL7jHMG8gDB2"
+    target "0Jpjc7Fc84inIqLhOvBU1Q"
+  ]
+  edge [
+    source "1xKdiuYoOCM2oCMErUjvtq"
+    target "2BcGYaQvEHrUMyRNSYpcsp"
+  ]
+  edge [
+    source "3gdaj3L0OqxdaVoxnI7ZGu"
+    target "4S1JYtAckrOpZa0h30UGxX"
+  ]
+  edge [
+    source "07o97MiFEobUUwiIYcspmj"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "09djLPsTydbIFC9duW5mQp"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "1vppDmG3i5sXf3DJzrK4T1"
+    target "1GvdbTD73RbCxxDeM8LtUe"
+  ]
+  edge [
+    source "4SaxUo7mfdHBowU0llwxFd"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "5ZfBThYiIIhL7jHMG8gDB2"
+    target "1xKdiuYoOCM2oCMErUjvtq"
+  ]
+  edge [
+    source "1GvdbTD73RbCxxDeM8LtUe"
+    target "07o97MiFEobUUwiIYcspmj"
+  ]
+  edge [
+    source "4NUePmzDvCYqilXBFa91Hg"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "1xKdiuYoOCM2oCMErUjvtq"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "25weUzxLCt8OwFTMSmif8X"
+  ]
+  edge [
+    source "3RpJ23sQA3B70ZgSnT2Vxr"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "25weUzxLCt8OwFTMSmif8X"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "5ZfBThYiIIhL7jHMG8gDB2"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "4NUePmzDvCYqilXBFa91Hg"
+    target "1vppDmG3i5sXf3DJzrK4T1"
+  ]
+  edge [
+    source "1vppDmG3i5sXf3DJzrK4T1"
+    target "4NUePmzDvCYqilXBFa91Hg"
+  ]
+  edge [
+    source "1GvdbTD73RbCxxDeM8LtUe"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "3BjwDUAFEmVPIoii9RI4kh"
+    target "1xKdiuYoOCM2oCMErUjvtq"
+  ]
+  edge [
+    source "09djLPsTydbIFC9duW5mQp"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "5JG9GISYjRLQUJMH2C6iJ5"
+    target "4NUePmzDvCYqilXBFa91Hg"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "1xKdiuYoOCM2oCMErUjvtq"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "5ZfBThYiIIhL7jHMG8gDB2"
+  ]
+  edge [
+    source "5JG9GISYjRLQUJMH2C6iJ5"
+    target "1xKdiuYoOCM2oCMErUjvtq"
+  ]
+  edge [
+    source "09djLPsTydbIFC9duW5mQp"
+    target "1GvdbTD73RbCxxDeM8LtUe"
+  ]
+  edge [
+    source "1GvdbTD73RbCxxDeM8LtUe"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "6PtYnpdPPbMSAG8sxFs8uz"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "4SaxUo7mfdHBowU0llwxFd"
+    target "1xKdiuYoOCM2oCMErUjvtq"
+  ]
+  edge [
+    source "6XgJ4LQHTOtveWKH5V7X56"
+    target "4S1JYtAckrOpZa0h30UGxX"
+  ]
+  edge [
+    source "07o97MiFEobUUwiIYcspmj"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "1vppDmG3i5sXf3DJzrK4T1"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "09djLPsTydbIFC9duW5mQp"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "25weUzxLCt8OwFTMSmif8X"
+    target "5JG9GISYjRLQUJMH2C6iJ5"
+  ]
+  edge [
+    source "6PtYnpdPPbMSAG8sxFs8uz"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "2BcGYaQvEHrUMyRNSYpcsp"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "1DEukDFi4pMT4Y0bfGxJTB"
+    target "4S1JYtAckrOpZa0h30UGxX"
+  ]
+  edge [
+    source "09djLPsTydbIFC9duW5mQp"
+    target "1vppDmG3i5sXf3DJzrK4T1"
+  ]
+  edge [
+    source "5ZfBThYiIIhL7jHMG8gDB2"
+    target "4NUePmzDvCYqilXBFa91Hg"
+  ]
+  edge [
+    source "1xKdiuYoOCM2oCMErUjvtq"
+    target "07o97MiFEobUUwiIYcspmj"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "09djLPsTydbIFC9duW5mQp"
+  ]
+  edge [
+    source "5JG9GISYjRLQUJMH2C6iJ5"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "2BcGYaQvEHrUMyRNSYpcsp"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "09djLPsTydbIFC9duW5mQp"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "6XgJ4LQHTOtveWKH5V7X56"
+    target "3gdaj3L0OqxdaVoxnI7ZGu"
+  ]
+  edge [
+    source "09djLPsTydbIFC9duW5mQp"
+    target "5JG9GISYjRLQUJMH2C6iJ5"
+  ]
+  edge [
+    source "5JG9GISYjRLQUJMH2C6iJ5"
+    target "1GvdbTD73RbCxxDeM8LtUe"
+  ]
+  edge [
+    source "4NUePmzDvCYqilXBFa91Hg"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "4SaxUo7mfdHBowU0llwxFd"
+    target "5JG9GISYjRLQUJMH2C6iJ5"
+  ]
+  edge [
+    source "7hLjkyL9Pz9xtQNahzJZki"
+    target "4S1JYtAckrOpZa0h30UGxX"
+  ]
+  edge [
+    source "1GvdbTD73RbCxxDeM8LtUe"
+    target "2BcGYaQvEHrUMyRNSYpcsp"
+  ]
+  edge [
+    source "25weUzxLCt8OwFTMSmif8X"
+    target "5ZfBThYiIIhL7jHMG8gDB2"
+  ]
+  edge [
+    source "6XgJ4LQHTOtveWKH5V7X56"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "4NUePmzDvCYqilXBFa91Hg"
+  ]
+  edge [
+    source "1xKdiuYoOCM2oCMErUjvtq"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "5JG9GISYjRLQUJMH2C6iJ5"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "2BcGYaQvEHrUMyRNSYpcsp"
+    target "34dfPo3Zi55yM6oV46q4y7"
+  ]
+  edge [
+    source "5ZfBThYiIIhL7jHMG8gDB2"
+    target "1vppDmG3i5sXf3DJzrK4T1"
+  ]
+  edge [
+    source "1DEukDFi4pMT4Y0bfGxJTB"
+    target "1xKdiuYoOCM2oCMErUjvtq"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "3BjwDUAFEmVPIoii9RI4kh"
+  ]
+  edge [
+    source "0Jpjc7Fc84inIqLhOvBU1Q"
+    target "5ZfBThYiIIhL7jHMG8gDB2"
+  ]
+  edge [
+    source "09djLPsTydbIFC9duW5mQp"
+    target "5ZfBThYiIIhL7jHMG8gDB2"
+  ]
+  edge [
+    source "7hLjkyL9Pz9xtQNahzJZki"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "5JG9GISYjRLQUJMH2C6iJ5"
+  ]
+  edge [
+    source "4NUePmzDvCYqilXBFa91Hg"
+    target "1xKdiuYoOCM2oCMErUjvtq"
+  ]
+  edge [
+    source "07o97MiFEobUUwiIYcspmj"
+    target "3gdaj3L0OqxdaVoxnI7ZGu"
+  ]
+  edge [
+    source "0Jpjc7Fc84inIqLhOvBU1Q"
+    target "4S1JYtAckrOpZa0h30UGxX"
+  ]
+  edge [
+    source "4SaxUo7mfdHBowU0llwxFd"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "09djLPsTydbIFC9duW5mQp"
+    target "0Jpjc7Fc84inIqLhOvBU1Q"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "5ZfBThYiIIhL7jHMG8gDB2"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "0Jpjc7Fc84inIqLhOvBU1Q"
+    target "07o97MiFEobUUwiIYcspmj"
+  ]
+  edge [
+    source "1GvdbTD73RbCxxDeM8LtUe"
+    target "5JG9GISYjRLQUJMH2C6iJ5"
+  ]
+  edge [
+    source "4SaxUo7mfdHBowU0llwxFd"
+    target "07o97MiFEobUUwiIYcspmj"
+  ]
+  edge [
+    source "2BcGYaQvEHrUMyRNSYpcsp"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "3BjwDUAFEmVPIoii9RI4kh"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "5JG9GISYjRLQUJMH2C6iJ5"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "5JG9GISYjRLQUJMH2C6iJ5"
+    target "1vppDmG3i5sXf3DJzrK4T1"
+  ]
+  edge [
+    source "7hLjkyL9Pz9xtQNahzJZki"
+    target "34dfPo3Zi55yM6oV46q4y7"
+  ]
+  edge [
+    source "3BjwDUAFEmVPIoii9RI4kh"
+    target "3gdaj3L0OqxdaVoxnI7ZGu"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "1vppDmG3i5sXf3DJzrK4T1"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "25weUzxLCt8OwFTMSmif8X"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "5ZfBThYiIIhL7jHMG8gDB2"
+    target "09djLPsTydbIFC9duW5mQp"
+  ]
+  edge [
+    source "1vppDmG3i5sXf3DJzrK4T1"
+    target "1xKdiuYoOCM2oCMErUjvtq"
+  ]
+  edge [
+    source "3RpJ23sQA3B70ZgSnT2Vxr"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "6XgJ4LQHTOtveWKH5V7X56"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "4S1JYtAckrOpZa0h30UGxX"
+    target "3gdaj3L0OqxdaVoxnI7ZGu"
+  ]
+  edge [
+    source "1DEukDFi4pMT4Y0bfGxJTB"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "6PtYnpdPPbMSAG8sxFs8uz"
+    target "3BjwDUAFEmVPIoii9RI4kh"
+  ]
+  edge [
+    source "0Jpjc7Fc84inIqLhOvBU1Q"
+    target "5JG9GISYjRLQUJMH2C6iJ5"
+  ]
+  edge [
+    source "25weUzxLCt8OwFTMSmif8X"
+    target "0Jpjc7Fc84inIqLhOvBU1Q"
+  ]
+  edge [
+    source "1xKdiuYoOCM2oCMErUjvtq"
+    target "34dfPo3Zi55yM6oV46q4y7"
+  ]
+  edge [
+    source "07o97MiFEobUUwiIYcspmj"
+    target "1xKdiuYoOCM2oCMErUjvtq"
+  ]
+  edge [
+    source "1vppDmG3i5sXf3DJzrK4T1"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "4S1JYtAckrOpZa0h30UGxX"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "0Jpjc7Fc84inIqLhOvBU1Q"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "09djLPsTydbIFC9duW5mQp"
+    target "4NUePmzDvCYqilXBFa91Hg"
+  ]
+  edge [
+    source "4NUePmzDvCYqilXBFa91Hg"
+    target "09djLPsTydbIFC9duW5mQp"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "1vppDmG3i5sXf3DJzrK4T1"
+  ]
+  edge [
+    source "3BjwDUAFEmVPIoii9RI4kh"
+    target "1GvdbTD73RbCxxDeM8LtUe"
+  ]
+  edge [
+    source "1xKdiuYoOCM2oCMErUjvtq"
+    target "0Jpjc7Fc84inIqLhOvBU1Q"
+  ]
+  edge [
+    source "6XgJ4LQHTOtveWKH5V7X56"
+    target "5JG9GISYjRLQUJMH2C6iJ5"
+  ]
+  edge [
+    source "7hLjkyL9Pz9xtQNahzJZki"
+    target "1GvdbTD73RbCxxDeM8LtUe"
+  ]
+  edge [
+    source "5ZfBThYiIIhL7jHMG8gDB2"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "4S1JYtAckrOpZa0h30UGxX"
+  ]
+  edge [
+    source "1xKdiuYoOCM2oCMErUjvtq"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "5JG9GISYjRLQUJMH2C6iJ5"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "1GvdbTD73RbCxxDeM8LtUe"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "3BjwDUAFEmVPIoii9RI4kh"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "25weUzxLCt8OwFTMSmif8X"
+    target "09djLPsTydbIFC9duW5mQp"
+  ]
+  edge [
+    source "3BjwDUAFEmVPIoii9RI4kh"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "3gdaj3L0OqxdaVoxnI7ZGu"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "6PtYnpdPPbMSAG8sxFs8uz"
+    target "2BcGYaQvEHrUMyRNSYpcsp"
+  ]
+  edge [
+    source "4SaxUo7mfdHBowU0llwxFd"
+    target "4NUePmzDvCYqilXBFa91Hg"
+  ]
+  edge [
+    source "0Jpjc7Fc84inIqLhOvBU1Q"
+    target "4NUePmzDvCYqilXBFa91Hg"
+  ]
+  edge [
+    source "4NUePmzDvCYqilXBFa91Hg"
+    target "0Jpjc7Fc84inIqLhOvBU1Q"
+  ]
+  edge [
+    source "7hLjkyL9Pz9xtQNahzJZki"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "09djLPsTydbIFC9duW5mQp"
+    target "34dfPo3Zi55yM6oV46q4y7"
+  ]
+  edge [
+    source "1DEukDFi4pMT4Y0bfGxJTB"
+    target "07o97MiFEobUUwiIYcspmj"
+  ]
+  edge [
+    source "1DEukDFi4pMT4Y0bfGxJTB"
+    target "1GvdbTD73RbCxxDeM8LtUe"
+  ]
+  edge [
+    source "5ZfBThYiIIhL7jHMG8gDB2"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "4S1JYtAckrOpZa0h30UGxX"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "3BjwDUAFEmVPIoii9RI4kh"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "3gdaj3L0OqxdaVoxnI7ZGu"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "6XgJ4LQHTOtveWKH5V7X56"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "07o97MiFEobUUwiIYcspmj"
+    target "4S1JYtAckrOpZa0h30UGxX"
+  ]
+  edge [
+    source "6PtYnpdPPbMSAG8sxFs8uz"
+    target "1GvdbTD73RbCxxDeM8LtUe"
+  ]
+  edge [
+    source "0Jpjc7Fc84inIqLhOvBU1Q"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "1DEukDFi4pMT4Y0bfGxJTB"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "6PtYnpdPPbMSAG8sxFs8uz"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "25weUzxLCt8OwFTMSmif8X"
+    target "4NUePmzDvCYqilXBFa91Hg"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "1GvdbTD73RbCxxDeM8LtUe"
+  ]
+  edge [
+    source "1GvdbTD73RbCxxDeM8LtUe"
+    target "3BjwDUAFEmVPIoii9RI4kh"
+  ]
+  edge [
+    source "09djLPsTydbIFC9duW5mQp"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "1DEukDFi4pMT4Y0bfGxJTB"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "7hLjkyL9Pz9xtQNahzJZki"
+    target "07o97MiFEobUUwiIYcspmj"
+  ]
+  edge [
+    source "4NUePmzDvCYqilXBFa91Hg"
+    target "34dfPo3Zi55yM6oV46q4y7"
+  ]
+  edge [
+    source "4S1JYtAckrOpZa0h30UGxX"
+    target "1GvdbTD73RbCxxDeM8LtUe"
+  ]
+  edge [
+    source "1GvdbTD73RbCxxDeM8LtUe"
+    target "4S1JYtAckrOpZa0h30UGxX"
+  ]
+  edge [
+    source "25weUzxLCt8OwFTMSmif8X"
+    target "3BjwDUAFEmVPIoii9RI4kh"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "2BcGYaQvEHrUMyRNSYpcsp"
+  ]
+  edge [
+    source "2BcGYaQvEHrUMyRNSYpcsp"
+    target "1vppDmG3i5sXf3DJzrK4T1"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "7hLjkyL9Pz9xtQNahzJZki"
+    target "1xKdiuYoOCM2oCMErUjvtq"
+  ]
+  edge [
+    source "4NUePmzDvCYqilXBFa91Hg"
+    target "1GvdbTD73RbCxxDeM8LtUe"
+  ]
+  edge [
+    source "1GvdbTD73RbCxxDeM8LtUe"
+    target "34dfPo3Zi55yM6oV46q4y7"
+  ]
+  edge [
+    source "3RpJ23sQA3B70ZgSnT2Vxr"
+    target "7hLjkyL9Pz9xtQNahzJZki"
+  ]
+  edge [
+    source "1DEukDFi4pMT4Y0bfGxJTB"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "09djLPsTydbIFC9duW5mQp"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "4NUePmzDvCYqilXBFa91Hg"
+    target "5ZfBThYiIIhL7jHMG8gDB2"
+  ]
+  edge [
+    source "5ZfBThYiIIhL7jHMG8gDB2"
+    target "34dfPo3Zi55yM6oV46q4y7"
+  ]
+  edge [
+    source "4S1JYtAckrOpZa0h30UGxX"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "07o97MiFEobUUwiIYcspmj"
+    target "2BcGYaQvEHrUMyRNSYpcsp"
+  ]
+  edge [
+    source "2BcGYaQvEHrUMyRNSYpcsp"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "0Jpjc7Fc84inIqLhOvBU1Q"
+  ]
+  edge [
+    source "6XgJ4LQHTOtveWKH5V7X56"
+    target "07o97MiFEobUUwiIYcspmj"
+  ]
+  edge [
+    source "0Jpjc7Fc84inIqLhOvBU1Q"
+    target "34dfPo3Zi55yM6oV46q4y7"
+  ]
+  edge [
+    source "1xKdiuYoOCM2oCMErUjvtq"
+    target "4NUePmzDvCYqilXBFa91Hg"
+  ]
+  edge [
+    source "6PtYnpdPPbMSAG8sxFs8uz"
+    target "34dfPo3Zi55yM6oV46q4y7"
+  ]
+  edge [
+    source "1xKdiuYoOCM2oCMErUjvtq"
+    target "09djLPsTydbIFC9duW5mQp"
+  ]
+  edge [
+    source "5JG9GISYjRLQUJMH2C6iJ5"
+    target "5ZfBThYiIIhL7jHMG8gDB2"
+  ]
+  edge [
+    source "3RpJ23sQA3B70ZgSnT2Vxr"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "6XgJ4LQHTOtveWKH5V7X56"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "07o97MiFEobUUwiIYcspmj"
+    target "1GvdbTD73RbCxxDeM8LtUe"
+  ]
+  edge [
+    source "7hLjkyL9Pz9xtQNahzJZki"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "7hLjkyL9Pz9xtQNahzJZki"
+    target "5JG9GISYjRLQUJMH2C6iJ5"
+  ]
+  edge [
+    source "25weUzxLCt8OwFTMSmif8X"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "0Jpjc7Fc84inIqLhOvBU1Q"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "3gdaj3L0OqxdaVoxnI7ZGu"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "1vppDmG3i5sXf3DJzrK4T1"
+    target "34dfPo3Zi55yM6oV46q4y7"
+  ]
+  edge [
+    source "1GvdbTD73RbCxxDeM8LtUe"
+    target "1xKdiuYoOCM2oCMErUjvtq"
+  ]
+  edge [
+    source "5ZfBThYiIIhL7jHMG8gDB2"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "4S1JYtAckrOpZa0h30UGxX"
+    target "07o97MiFEobUUwiIYcspmj"
+  ]
+  edge [
+    source "0Jpjc7Fc84inIqLhOvBU1Q"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "5ZfBThYiIIhL7jHMG8gDB2"
+    target "5JG9GISYjRLQUJMH2C6iJ5"
+  ]
+  edge [
+    source "3BjwDUAFEmVPIoii9RI4kh"
+    target "2BcGYaQvEHrUMyRNSYpcsp"
+  ]
+  edge [
+    source "1xKdiuYoOCM2oCMErUjvtq"
+    target "5JG9GISYjRLQUJMH2C6iJ5"
+  ]
+  edge [
+    source "1GvdbTD73RbCxxDeM8LtUe"
+    target "1DEukDFi4pMT4Y0bfGxJTB"
+  ]
+  edge [
+    source "6PtYnpdPPbMSAG8sxFs8uz"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "07o97MiFEobUUwiIYcspmj"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "0Jpjc7Fc84inIqLhOvBU1Q"
+    target "1xKdiuYoOCM2oCMErUjvtq"
+  ]
+  edge [
+    source "6XgJ4LQHTOtveWKH5V7X56"
+    target "1xKdiuYoOCM2oCMErUjvtq"
+  ]
+  edge [
+    source "34dfPo3Zi55yM6oV46q4y7"
+    target "07o97MiFEobUUwiIYcspmj"
+  ]
+  edge [
+    source "07o97MiFEobUUwiIYcspmj"
+    target "5JG9GISYjRLQUJMH2C6iJ5"
+  ]
+  edge [
+    source "1DEukDFi4pMT4Y0bfGxJTB"
+    target "5JG9GISYjRLQUJMH2C6iJ5"
+  ]
+  edge [
+    source "3BjwDUAFEmVPIoii9RI4kh"
+    target "07o97MiFEobUUwiIYcspmj"
+  ]
+  edge [
+    source "4SaxUo7mfdHBowU0llwxFd"
+    target "3RpJ23sQA3B70ZgSnT2Vxr"
+  ]
+  edge [
+    source "5JG9GISYjRLQUJMH2C6iJ5"
+    target "6XgJ4LQHTOtveWKH5V7X56"
+  ]
+  edge [
+    source "3RpJ23sQA3B70ZgSnT2Vxr"
+    target "1xKdiuYoOCM2oCMErUjvtq"
+  ]
+  edge [
+    source "2BcGYaQvEHrUMyRNSYpcsp"
+    target "4SaxUo7mfdHBowU0llwxFd"
+  ]
+  edge [
+    source "5JG9GISYjRLQUJMH2C6iJ5"
+    target "6PtYnpdPPbMSAG8sxFs8uz"
+  ]
+  edge [
+    source "1vppDmG3i5sXf3DJzrK4T1"
+    target "6XgJ4LQHTOtveWKH5V7X56"
   ]
 ]

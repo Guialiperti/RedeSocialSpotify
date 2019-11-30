@@ -5,7 +5,7 @@ def build(path):
     names = {}
     edges = set()
     for filename in os.listdir(path):
-        n = filename[:]
+        n = filename[:-4]
 
         with open(os.path.join(path, filename), encoding='iso-8859-1') as file:
             name = file.readline().strip()

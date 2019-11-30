@@ -1,11 +1,11 @@
 graph [
   directed 1
   node [
-    id "1vQmEkUObXvubDjIJb4Urv.txt"
+    id "1vQmEkUObXvubDjIJb4Urv"
     name "DJ Tezinho"
   ]
   node [
-    id "7yh3t5A4FLIqKhfIrEEjF3.txt"
+    id "7yh3t5A4FLIqKhfIrEEjF3"
     name "DJ Tezinho"
   ]
 ]

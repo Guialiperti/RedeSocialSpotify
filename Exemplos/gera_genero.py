@@ -19,10 +19,15 @@ def gera_genero():
     hiphop = []
     cachehiphop = []
 
+    td = []
+    tdcache = []
+
 
     with open('caches_spotify.csv') as csvfile:
         readCSV = csv.reader(csvfile, delimiter=';')
         for row in readCSV:
+            td.append(row[3])
+            tdcache.append(int(row[2]))
             if (row[1]== "Sertanejo"):
                 sertanejo.append(row[3])
                 cachesertanejo.append(int(row[2]))
@@ -70,6 +75,7 @@ def gera_genero():
     lista_geral_caches.append(cachehiphop)
 
 
-    return lista_geral_id, lista_geral_caches
+
+    return lista_geral_id, lista_geral_caches , td , tdcache
 
 
