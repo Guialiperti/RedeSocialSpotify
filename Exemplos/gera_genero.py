@@ -74,8 +74,56 @@ def gera_genero():
     lista_geral_caches.append(cachesamba)
     lista_geral_caches.append(cachehiphop)
 
+    normser = [float(i)/max(cachesertanejo) for i in cachesertanejo]
+    normaxe = [float(i)/max(cacheaxe) for i in cacheaxe]
+    normpr = [float(i)/max(cachepoprock) for i in cachepoprock]
+    normelet = [float(i)/max(cacheeletronico) for i in cacheeletronico]
+    normfunk = [float(i)/max(cachefunk) for i in cachefunk]
+    normsamba = [float(i)/max(cachesamba) for i in cachesamba]
+    normhiphop = [float(i)/max(cachehiphop) for i in cachehiphop]
+
+    cachesnorm = normser + normaxe + normpr + normelet + normfunk + normsamba + normhiphop
+
+    minser = min(cachesertanejo)
+    maxser = max(cachesertanejo)
+    minaxe = min(cacheaxe)
+    maxaxe = max(cacheaxe)
+    minpr = min(cachepoprock)
+    maxpr = max(cachepoprock)
+    minelet = min(cacheeletronico)
+    maxelet = max(cacheeletronico)
+    minfunk = min(cachefunk)
+    maxfunk = max(cachefunk)
+    minsamba = min(cachesamba)
+    maxsamba = max(cachesamba)
+    minhiphop = min(cachehiphop)
+    maxhiphop= max(cachehiphop)
+
+    minimos = []
+    maximos = []
+
+    minimos.append(minser)
+    maximos.append(maxser)
+    minimos.append(minaxe)
+    maximos.append(maxaxe)
+    minimos.append(minpr)
+    maximos.append(maxpr)  
+    minimos.append(minelet)
+    maximos.append(maxelet)
+    minimos.append(minfunk)
+    maximos.append(maxfunk)
+    minimos.append(minsamba)
+    maximos.append(maxsamba)
+    minimos.append(minhiphop)
+    maximos.append(maxhiphop)
 
 
-    return lista_geral_id, lista_geral_caches , td , tdcache
+    
+    minvalue = int(sum(minimos)/len(minimos))
+    maxvalue = int(sum(maximos)/len(maximos))
+
+    
+    return lista_geral_id, lista_geral_caches , td , tdcache , minvalue , maxvalue , cachesnorm
 
 
+gera_genero()
