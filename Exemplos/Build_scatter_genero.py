@@ -6,6 +6,11 @@ import matplotlib.pyplot as plt
 from funcoes import *
 from gera_genero import *
 from scipy.stats.stats import pearsonr
+import csv
+from scipy import stats
+import pandas as pd
+
+
 
 def calcula_densidade(g):
     n_of_edges = len(g.edges())
@@ -19,8 +24,8 @@ generos = ["Sertanejo", "Axé", "Pop Rock e MPB", "Eletrônico", "Funk","Samba e
 
 lista_geral_id , lista_geral_caches, todos_artistas , todos_caches, minn , maxx , caches_norm = gera_genero()
 
-print(minn)
-print(maxx)
+ 
+
 
 # Loop Scatter Indegree x Cache
 def cache_x_indegree_geral(todos_artistas,todos_caches):
@@ -45,12 +50,14 @@ def cache_x_indegree_geral(todos_artistas,todos_caches):
     area = np.pi*3
     ppv = pearsonr(lista_indegree,todos_caches)
 
-    plt.scatter(lista_indegree,todos_caches, s=area, alpha=0.5)
-    plt.suptitle('Scatter Indegree x Cache ')
-    plt.title('Pvalue: {0} and Coeficiente de Correlação de Pearson: {1}'.format(ppv[1],ppv[0]))
-    plt.xlabel('Indegree')
-    plt.ylabel('Cache')
-    plt.show()
+#    plt.scatter(lista_indegree,todos_caches, s=area, alpha=0.5)
+#    plt.suptitle('Scatter Indegree x Cache ')
+#    plt.title('Pvalue: {0} and Coeficiente de Correlação de Pearson: {1}'.format(ppv[1],ppv[0]))
+#    plt.xlabel('Indegree')
+#    plt.ylabel('Cache')
+#    plt.show()
+
+    return lista_indegree
 
 def cache_x_indegree_genero(lista_geral_id,lista_geral_caches):
     counter_geral = 0
@@ -110,12 +117,15 @@ def populariade_cache_geral(todos_artistas,todos_caches):
     ppv = pearsonr(lista_popularidade,todos_caches)
     
         
-    plt.scatter(lista_popularidade,todos_caches, s=area, alpha=0.5)
-    plt.suptitle('Scatter Popularidade x Cache')
-    plt.title('Pvalue: {0} and Coeficiente de Correlação de Pearson: {1}'.format(ppv[1],ppv[0]))
-    plt.xlabel('Popularidade')
-    plt.ylabel('Cache')
-    plt.show()
+  #  plt.scatter(lista_popularidade,todos_caches, s=area, alpha=0.5)
+  #  plt.suptitle('Scatter Popularidade x Cache')
+  #  plt.title('Pvalue: {0} and Coeficiente de Correlação de Pearson: {1}'.format(ppv[1],ppv[0]))
+  #  plt.xlabel('Popularidade')
+  #  plt.ylabel('Cache')
+  #  plt.show()
+
+    return lista_popularidade
+
 
 
 def popularidade_cache_genero(lista_geral_id,lista_geral_caches):
@@ -174,12 +184,14 @@ def cache_x_densidade_geral(todos_artistas,todos_caches):
     ppv = pearsonr(lista_densidade,todos_caches)
         
         # Plot Scatter Densidade x Cache
-    plt.scatter(lista_densidade,todos_caches, s=area, alpha=0.5)
-    plt.suptitle('Scatter Densidade x Cache')
-    plt.title('Pvalue: {0} / Cf de Correlação de Pearson: {1}'.format(ppv[1],ppv[0]))
-    plt.xlabel('Densidade')
-    plt.ylabel('Cache')
-    plt.show()
+#    plt.scatter(lista_densidade,todos_caches, s=area, alpha=0.5)
+#    plt.suptitle('Scatter Densidade x Cache')
+#    plt.title('Pvalue: {0} / Cf de Correlação de Pearson: {1}'.format(ppv[1],ppv[0]))
+#    plt.xlabel('Densidade')
+#    plt.ylabel('Cache')
+#    plt.show()
+
+    return lista_densidade
 
 
 #Densidade x Cache por gênero
@@ -230,7 +242,7 @@ def cache_x_clustering_geral(todos_artistas,todos_caches):
         print(artista)
         try:
             g = fm.load('GMLS/{0}.gml'.format(artista))
-            clustering = nx.density(g)
+            clustering = nx.average_clustering(g)
             lista_clustering.append(clustering)
         except:
             print("{0} FAIL".format(artista))
@@ -243,12 +255,14 @@ def cache_x_clustering_geral(todos_artistas,todos_caches):
     ppv = pearsonr(lista_clustering,todos_caches)
         
     # Plot Scatter Clustering x Cache
-    plt.scatter(lista_clustering,todos_caches, s=area, alpha=0.5)
-    plt.suptitle('Scatter Clustering x Cache')
-    plt.title('Pvalue: {0} / Cf de Correlação de Pearson: {1}'.format(ppv[1],ppv[0]))
-    plt.xlabel('Clustering')
-    plt.ylabel('Cache')
-    plt.show()
+#    plt.scatter(lista_clustering,todos_caches, s=area, alpha=0.5)
+#    plt.suptitle('Scatter Clustering x Cache')
+#    plt.title('Pvalue: {0} / Cf de Correlação de Pearson: {1}'.format(ppv[1],ppv[0]))
+#    plt.xlabel('Clustering')
+#    plt.ylabel('Cache')
+#    plt.show()
+
+    return lista_clustering
 
 
 # Clustering coefficient x Cache por gênero
@@ -299,5 +313,9 @@ def cache_x_clustering_genero(lista_geral_id,lista_geral_caches):
 #cache_x_densidade_genero(lista_geral_id,lista_geral_caches)
 
 #cache_x_clustering_geral(todos_artistas,todos_caches)
-cache_x_clustering_geral(todos_artistas,caches_norm)
+#cache_x_clustering_geral(todos_artistas,caches_norm)
 #cache_x_clustering_genero(lista_geral_id,lista_geral_caches)
+
+
+#regress = pd.read_csv('regressao.csv')
+#rrr = fm.logregress(regress,['Popularidade','Clustering Coefficient'],'Cache')

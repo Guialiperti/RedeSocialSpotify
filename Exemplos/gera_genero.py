@@ -2,6 +2,7 @@ from save import Saver
 import csv
 import numpy as np
 import matplotlib.pyplot as plt
+import statistics
 
 def gera_genero():
     sertanejo = []
@@ -74,6 +75,8 @@ def gera_genero():
     lista_geral_caches.append(cachesamba)
     lista_geral_caches.append(cachehiphop)
 
+# Forma 1 de Normalizar
+
     normser = [float(i)/max(cachesertanejo) for i in cachesertanejo]
     normaxe = [float(i)/max(cacheaxe) for i in cacheaxe]
     normpr = [float(i)/max(cachepoprock) for i in cachepoprock]
@@ -82,8 +85,34 @@ def gera_genero():
     normsamba = [float(i)/max(cachesamba) for i in cachesamba]
     normhiphop = [float(i)/max(cachehiphop) for i in cachehiphop]
 
-    cachesnorm = normser + normaxe + normpr + normelet + normfunk + normsamba + normhiphop
+# Forma 2 de Normalizar
+#    normser = [(float(i) - min(cachesertanejo))/(max(cachesertanejo)-min(cachesertanejo)) for i in cachesertanejo]
+#    normaxe = [(float(i) - min(cacheaxe))/(max(cacheaxe)-min(cacheaxe)) for i in cacheaxe]
+#    normpr = [(float(i) - min(cachepoprock))/(max(cachepoprock)-min(cachepoprock)) for i in cachepoprock]
+#    normelet = [(float(i) - min(cacheeletronico))/(max(cacheeletronico)-min(cacheeletronico)) for i in cacheeletronico]
+#   normfunk = [(float(i) - min(cachefunk))/(max(cachefunk)-min(cachefunk)) for i in cachefunk]
+#    normsamba = [(float(i) - min(cachesamba))/(max(cachesamba)-min(cachesamba)) for i in cachesamba]
+#    normhiphop = [(float(i) - min(cachehiphop))/(max(cachehiphop)-min(cachehiphop)) for i in cachehiphop]
 
+# Forma 3 de Normalizar
+
+#    dvser = statistics.stdev(cachesertanejo)
+#    dvaxe = statistics.stdev(cacheaxe)
+#    dvpr = statistics.stdev(cachepoprock)
+#    dvelet = statistics.stdev(cacheeletronico)
+#    dvfunk = statistics.stdev(cachefunk)
+#    dvsamba = statistics.stdev(cachesamba)
+#    dvhp = statistics.stdev(cachehiphop)
+#    normser = [(float(i) - min(cachesertanejo))/(max(cachesertanejo)-min(cachesertanejo)) for i in cachesertanejo]
+#    normaxe = [(float(i) - min(cacheaxe))/(max(cacheaxe)-min(cacheaxe)) for i in cacheaxe]
+#    normpr = [(float(i) - min(cachepoprock))/(max(cachepoprock)-min(cachepoprock)) for i in cachepoprock]
+#    normelet = [(float(i) - min(cacheeletronico))/(max(cacheeletronico)-min(cacheeletronico)) for i in cacheeletronico]
+#    normfunk = [(float(i) - min(cachefunk))/(max(cachefunk)-min(cachefunk)) for i in cachefunk]
+#    normsamba = [(float(i) - min(cachesamba))/(max(cachesamba)-min(cachesamba)) for i in cachesamba]
+#    normhiphop = [(float(i) - min(cachehiphop))/(max(cachehiphop)-min(cachehiphop)) for i in cachehiphop]
+
+    cachesnorm = normser + normaxe + normpr + normelet + normfunk + normsamba + normhiphop
+ 
     minser = min(cachesertanejo)
     maxser = max(cachesertanejo)
     minaxe = min(cacheaxe)
