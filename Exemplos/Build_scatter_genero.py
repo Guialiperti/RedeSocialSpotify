@@ -50,12 +50,12 @@ def cache_x_indegree_geral(todos_artistas,todos_caches):
     area = np.pi*3
     ppv = pearsonr(lista_indegree,todos_caches)
 
-#    plt.scatter(lista_indegree,todos_caches, s=area, alpha=0.5)
-#    plt.suptitle('Scatter Indegree x Cache ')
-#    plt.title('Pvalue: {0} and Coeficiente de Correlação de Pearson: {1}'.format(ppv[1],ppv[0]))
-#    plt.xlabel('Indegree')
-#    plt.ylabel('Cache')
-#    plt.show()
+    plt.scatter(lista_indegree,todos_caches, s=area, alpha=0.5)
+    plt.suptitle('Scatter Indegree x Cache ')
+    plt.title('Pvalue: {0} and Coeficiente de Correlação de Pearson: {1}'.format(ppv[1],ppv[0]))
+    plt.xlabel('Indegree')
+    plt.ylabel('Cache')
+    plt.show()
 
     return lista_indegree
 
@@ -117,12 +117,12 @@ def populariade_cache_geral(todos_artistas,todos_caches):
     ppv = pearsonr(lista_popularidade,todos_caches)
     
         
-  #  plt.scatter(lista_popularidade,todos_caches, s=area, alpha=0.5)
-  #  plt.suptitle('Scatter Popularidade x Cache')
-  #  plt.title('Pvalue: {0} and Coeficiente de Correlação de Pearson: {1}'.format(ppv[1],ppv[0]))
-  #  plt.xlabel('Popularidade')
-  #  plt.ylabel('Cache')
-  #  plt.show()
+    plt.scatter(lista_popularidade,todos_caches, s=area, alpha=0.5)
+    plt.suptitle('Scatter Popularidade x Cache')
+    plt.title('Pvalue: {0} and Coeficiente de Correlação de Pearson: {1}'.format(ppv[1],ppv[0]))
+    plt.xlabel('Popularidade')
+    plt.ylabel('Cache')
+    plt.show()
 
     return lista_popularidade
 
@@ -184,12 +184,12 @@ def cache_x_densidade_geral(todos_artistas,todos_caches):
     ppv = pearsonr(lista_densidade,todos_caches)
         
         # Plot Scatter Densidade x Cache
-#    plt.scatter(lista_densidade,todos_caches, s=area, alpha=0.5)
-#    plt.suptitle('Scatter Densidade x Cache')
-#    plt.title('Pvalue: {0} / Cf de Correlação de Pearson: {1}'.format(ppv[1],ppv[0]))
-#    plt.xlabel('Densidade')
-#    plt.ylabel('Cache')
-#    plt.show()
+    plt.scatter(lista_densidade,todos_caches, s=area, alpha=0.5)
+    plt.suptitle('Scatter Densidade x Cache')
+    plt.title('Pvalue: {0} / Cf de Correlação de Pearson: {1}'.format(ppv[1],ppv[0]))
+    plt.xlabel('Densidade')
+    plt.ylabel('Cache')
+    plt.show()
 
     return lista_densidade
 
@@ -255,12 +255,12 @@ def cache_x_clustering_geral(todos_artistas,todos_caches):
     ppv = pearsonr(lista_clustering,todos_caches)
         
     # Plot Scatter Clustering x Cache
-#    plt.scatter(lista_clustering,todos_caches, s=area, alpha=0.5)
-#    plt.suptitle('Scatter Clustering x Cache')
-#    plt.title('Pvalue: {0} / Cf de Correlação de Pearson: {1}'.format(ppv[1],ppv[0]))
-#    plt.xlabel('Clustering')
-#    plt.ylabel('Cache')
-#    plt.show()
+    plt.scatter(lista_clustering,todos_caches, s=area, alpha=0.5)
+    plt.suptitle('Scatter Clustering x Cache')
+    plt.title('Pvalue: {0} / Cf de Correlação de Pearson: {1}'.format(ppv[1],ppv[0]))
+    plt.xlabel('Clustering')
+    plt.ylabel('Cache')
+    plt.show()
 
     return lista_clustering
 
@@ -313,7 +313,7 @@ def cache_x_clustering_genero(lista_geral_id,lista_geral_caches):
 #cache_x_densidade_genero(lista_geral_id,lista_geral_caches)
 
 #cache_x_clustering_geral(todos_artistas,todos_caches)
-#cache_x_clustering_geral(todos_artistas,caches_norm)
+cache_x_clustering_geral(todos_artistas,caches_norm)
 #cache_x_clustering_genero(lista_geral_id,lista_geral_caches)
 
 
